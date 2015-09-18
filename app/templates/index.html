@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}kenjoe41 URLShortener{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+	<h1>Hello, {{ ip }}! Think Kenjoe41 is c00l?</h1>
+</div>
+
+{{ wtf.quick_form(form) }}
+
+{% endblock %}
+
+
